@@ -1,3 +1,27 @@
+<div align="center">
+  <!-- GIF do Gatinho Fofo -->
+  <img src="https://giphy.com" width="220" alt="Gatinho fofo digitando">
+
+  # Olá, eu sou o Mayara! 👋
+  
+  ### 🚀 Desenvolvedor(a) em Construção
+</div>
+
+---
+
+### 💻 Sobre Mim
+- 🏫 Atualmente estudando **[Seu Curso/Foco atual]**
+- 🌟 Apaixonado(a) por tecnologia e design
+- 📫 Como me encontrar: **[Seu Email ou LinkedIn]**
+
+### 🛠️ Tecnologias e Ferramentas
+<p align="left">
+  <img src="https://shields.io" alt="HTML5">
+  <img src="https://shields.io" alt="CSS3">
+  <img src="https://shields.io" alt="JavaScript">
+  <img src="https://shields.io" alt="GitHub">
+</p>
+
 ૮ ˶ᵔ ᵕ ᵔ˶ ა  **Oláaa!** Me chamo Mayara!
 <div align="center">
   <img src="https://media.giphy.com/media/KZTModo6V7gjK/giphy.gif" width="120" alt="Bunny hop"/>
