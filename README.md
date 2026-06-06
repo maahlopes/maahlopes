@@ -2,7 +2,7 @@
 
   # ૮ ˶ᵔ ᵕ ᵔ˶ ა  Oláaa!** Me chamo Mayara!
   
-  ### 🚀 Desenvolvedor(a) em Construção       <div align="center">
+  ### 🚀 Desenvolvedora em Construção       <div align="center">
   <img src="https://media.giphy.com/media/KZTModo6V7gjK/giphy.gif" width="120" alt="Bunny hop"/>
   <img src="https://media.giphy.com/media/11s7Ke7jcNxCHS/giphy.gif" width="100" alt="Cute bunny"/>
 </div>
