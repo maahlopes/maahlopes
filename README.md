@@ -2,7 +2,7 @@
 
   # ૮ ˶ᵔ ᵕ ᵔ˶ ა  Oláaa!** Me chamo Mayara!
   
-  ### 🚀 Desenvolvedor(a) em Construção
+  ### 🚀 Desenvolvedor(a) em Construção    <img src="https://githubusercontent.com" width="180" alt="Gatinho digitando">
 
 <div align="center">
   <img src="https://media.giphy.com/media/KZTModo6V7gjK/giphy.gif" width="120" alt="Bunny hop"/>
