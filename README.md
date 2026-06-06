@@ -1,5 +1,11 @@
-## Hi there 👋
+<div align="center">
+  <img src="https://media.giphy.com/media/KZTModo6V7gjK/giphy.gif" width="120" alt="Bunny hop"/>
+  <img src="https://media.giphy.com/media/11s7Ke7jcNxCHS/giphy.gif" width="100" alt="Cute bunny"/>
+</div>
+### ˖ ݁𖥔 ݁˖ Sobre mim ˖ ݁𖥔 ݁˖
 
+૮ ˶ᵔ ᵕ ᵔ˶ ა  **Oláaa!** Me chamo Mayara!
+ ݁˖
 <!--
 **maahlopes/maahlopes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
