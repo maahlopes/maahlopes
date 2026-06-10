@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=B5EAD7&height=120&section=header&text=BEM-VINDO&fontSize=40&fontColor=333&animation=twinkling&fontAlignY=35&desc=🐢%20♡&descAlignY=55"/>
    <p align="center">
-  <img src="https://media.giphy.com/media/l0Iy2h5eP8sE5VQxy/giphy.gif" width="180"/>
+  <img src="https://media.giphy.com/media/3o7TKSjRrfIPjeiVyM/giphy.gif" width="180"/>
 </p>
    <!--
            ## ૮ ˶ᵔ ᵕ ᵔ˶ ა  Oláaa!** Me chamo Mayara!
