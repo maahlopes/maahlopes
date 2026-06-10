@@ -1,4 +1,4 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=120&section=header&text=BEM-VINDO&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=35&desc=🕸️🐢%20🐢🕸️&descAlignY=55"/>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=120&section=header&text=BEM-VINDO&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=35&desc=🐢%20♡descAlignY=55"/>
 <!--
            ## ૮ ˶ᵔ ᵕ ᵔ˶ ა  Oláaa!** Me chamo Mayara!
 **maahlopes/maahlopes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
