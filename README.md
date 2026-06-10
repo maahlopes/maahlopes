@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=B5EAD7&height=120&section=header&text=BEM-VINDO&fontSize=40&fontColor=333&animation=twinkling&fontAlignY=35&desc=🐢%20♡&descAlignY=55"/>
    <p align="center">
-  <img src="https://i.imgur.com/xwJXh5l.gif" width="150"/>
+  <img src="https://github.com/rafaballerini/rafaballerini/blob/output/assets/turtle.gif?raw=true" width="150"/>
 </p>
    <!--
            ## ૮ ˶ᵔ ᵕ ᵔ˶ ა  Oláaa!** Me chamo Mayara!
