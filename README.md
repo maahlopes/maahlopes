@@ -5,4 +5,5 @@
   
 <img width="202" height="276" alt="Captura de tela 2026-06-16 132540" src="https://github.com/user-attachments/assets/5f817896-0b94-443d-b235-e6d68e565de8" />
 
+![Tartaruga](animacao.gif)
   
