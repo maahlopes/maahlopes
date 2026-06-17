@@ -3,7 +3,8 @@
 
 <div align="center">
   
-<img width="202" height="276" alt="Captura de tela 2026-06-16 132540" src="https://github.com/user-attachments/assets/5f817896-0b94-443d-b235-e6d68e565de8" />
+<img width="202" height="276" alt="Captura de tela 2026-06-16 132540" src="https://github.com/user-attachments/assets/5f817896-0b94-443d-b235-e6d68e565de8" /> <img width="248" height="317" alt="Captura de tela 2026-06-16 133124" src="https://github.com/user-attachments/assets/04376b63-e22d-4797-af03-36d27d93c46d" />
+
 
 
   
