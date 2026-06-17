@@ -12,43 +12,28 @@
             color: white; 
             font-family: monospace; 
             display: flex; 
-            flex-direction: column; /* Alinha os elementos em vertical */
+            flex-direction: column; /* Organiza os elementos um embaixo do outro */
             justify-content: center; 
             align-items: center; 
             min-height: 100vh; 
             margin: 0; 
-            overflow-y: auto; /* Permite rolagem na tela */
-            gap: 20px; /* Dá espaço entre o título, o GIF e a tartaruga */
+            overflow: hidden; 
+            gap: 20px; /* Dá espaço entre o GIF e o desenho do canvas */
         }
-        h1 {
-            margin: 20px 0 0 0;
-            font-size: 2.5rem;
-            letter-spacing: 2px;
-        }
-        .gif-container img {
-            max-width: 250px; /* Ajusta a largura máxima do seu GIF */
-            height: auto;
-            border-radius: 8px; /* Bordas levemente arredondadas */
-        }
-        canvas { 
-            border: 2px solid #333; 
-            background: #111; 
-        }
+        canvas { border: 2px solid #333; background: #111; }
+        .gif-container img { max-width: 250px; height: auto; }
     </style>
 </head>
 <body>
 
-    <!-- Título superior -->
-    <h1>BEM-VINDO</h1>
-
-    <!-- Seu GIF animado referenciado corretamente -->
+    <!-- >>> COLOQUE O SEU LINK LOGO ABAIXO DENTRO DAS ASPAS DO SRC <<< -->
     <div class="gif-container">
-        <img src="animacao.gif" alt="Meu GIF Animado">
+        <img src="COLE_O_SEU_LINK_AQUI_DENTRO" alt="Meu GIF Animado">
     </div>
+    <!-- >>> O SEU LINK FICARÁ EXATAMENTE NA LINHA ACIMA <<< -->
 
-    <!-- Animação gráfica da tartaruga -->
     <canvas id="turtleCanvas" width="800" height="300"></canvas>
-
+    
     <script>
         const canvas = document.getElementById('turtleCanvas');
         const ctx = canvas.getContext('2d');
