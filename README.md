@@ -1,19 +1,54 @@
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=B5EAD7&height=120&section=header&text=BEM-VINDO&fontSize=40&fontColor=333&animation=twinkling&fontAlignY=35&desc=🐢%20♡&descAlignY=55"/>
 
-[index.html.html](https://github.com/user-attachments/files/29047747/index.html.html)
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <title>Tartaruga do Git</title>
     <style>
-        body { background-color: #1a1a1a; color: white; font-family: monospace; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; overflow: hidden; }
-        canvas { border: 2px solid #333; background: #111; }
+        body { 
+            background-color: #1a1a1a; 
+            color: white; 
+            font-family: monospace; 
+            display: flex; 
+            flex-direction: column; /* Alinha os elementos em vertical */
+            justify-content: center; 
+            align-items: center; 
+            min-height: 100vh; 
+            margin: 0; 
+            overflow-y: auto; /* Permite rolagem na tela */
+            gap: 20px; /* Dá espaço entre o título, o GIF e a tartaruga */
+        }
+        h1 {
+            margin: 20px 0 0 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+        .gif-container img {
+            max-width: 250px; /* Ajusta a largura máxima do seu GIF */
+            height: auto;
+            border-radius: 8px; /* Bordas levemente arredondadas */
+        }
+        canvas { 
+            border: 2px solid #333; 
+            background: #111; 
+        }
     </style>
 </head>
 <body>
+
+    <!-- Título superior -->
+    <h1>BEM-VINDO</h1>
+
+    <!-- Seu GIF animado referenciado corretamente -->
+    <div class="gif-container">
+        <img src="animacao.gif" alt="Meu GIF Animado">
+    </div>
+
+    <!-- Animação gráfica da tartaruga -->
     <canvas id="turtleCanvas" width="800" height="300"></canvas>
+
     <script>
         const canvas = document.getElementById('turtleCanvas');
         const ctx = canvas.getContext('2d');
@@ -75,7 +110,6 @@
     </script>
 </body>
 </html>
-
 
 https://github.com/user-attachments/assets/1da8a18c-9e46-40bb-8e6a-115495d6b252
 
