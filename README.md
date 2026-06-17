@@ -12,44 +12,29 @@
             color: white; 
             font-family: monospace; 
             display: flex; 
-            flex-direction: column; /* Alinha o banner, o GIF e a tartaruga em ordem vertical */
+            flex-direction: column; 
             justify-content: flex-start; 
             align-items: center; 
             min-height: 100vh; 
             margin: 0; 
-            overflow-y: auto; /* Garante que você consiga rolar a página para ver tudo */
+            overflow-y: auto; 
             gap: 20px; 
         }
-        .banner img {
-            width: 100%;
-            max-width: 800px;
-            display: block;
-        }
-        .gif-container img { 
-            max-width: 250px; 
-            height: auto; 
-            border-radius: 8px; 
-        }
-        canvas { 
-            border: 2px solid #333; 
-            background: #111; 
-            margin-bottom: 30px;
-        }
+        .banner img { width: 100%; max-width: 800px; display: block; }
+        .gif-container img { max-width: 250px; height: auto; border-radius: 8px; }
+        canvas { border: 2px solid #333; background: #111; margin-bottom: 30px; }
     </style>
 </head>
 <body>
 
-    <!-- Seu Banner de boas-vindas -->
     <div class="banner">
-        <img src="https://vercel.app🐢%20♡&descAlignY=55" alt="Banner Bem-vindo">
+        <img src="https://vercel.app🐢%20♡&descAlignY=55" alt="Banner">
     </div>
 
-    <!-- Seu GIF animado do GitHub inserido corretamente -->
     <div class="gif-container">
-        <img src="https://github.com" alt="Meu GIF Animado">
+        <img src="https://github.com" alt="GIF">
     </div>
 
-    <!-- Desenho gráfico da tartaruga com os commits -->
     <canvas id="turtleCanvas" width="800" height="300"></canvas>
     
     <script>
