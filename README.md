@@ -12,33 +12,46 @@
             color: white; 
             font-family: monospace; 
             display: flex; 
-            flex-direction: column; /* Coloca o GIF em cima do Canvas */
-            justify-content: center; 
+            flex-direction: column; /* Alinha o banner, o GIF e a tartaruga em ordem vertical */
+            justify-content: flex-start; 
             align-items: center; 
             min-height: 100vh; 
             margin: 0; 
-            overflow: auto; 
+            overflow-y: auto; /* Garante que você consiga rolar a página para ver tudo */
             gap: 20px; 
         }
-        canvas { border: 2px solid #333; background: #111; }
-        .gif-container img { max-width: 250px; height: auto; border-radius: 8px; }
+        .banner img {
+            width: 100%;
+            max-width: 800px;
+            display: block;
+        }
+        .gif-container img { 
+            max-width: 250px; 
+            height: auto; 
+            border-radius: 8px; 
+        }
+        canvas { 
+            border: 2px solid #333; 
+            background: #111; 
+            margin-bottom: 30px;
+        }
     </style>
 </head>
 <body>
 
-    <!-- 👇 O SEU LINK DEVE SUBSTUIR O LINK DA CORRIDA ABAIXO 👇 -->
-    
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Tartaruga do Git</title>
-    <style>
-        body { background-color: #1a1a1a; color: white; font-family: monospace; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; overflow: hidden; }
-        canvas { border: 2px solid #333; background: #111; }
-    </style>
-</head>
-<body>
+    <!-- Seu Banner de boas-vindas -->
+    <div class="banner">
+        <img src="https://vercel.app🐢%20♡&descAlignY=55" alt="Banner Bem-vindo">
+    </div>
+
+    <!-- Seu GIF animado do GitHub inserido corretamente -->
+    <div class="gif-container">
+        <img src="https://github.com" alt="Meu GIF Animado">
+    </div>
+
+    <!-- Desenho gráfico da tartaruga com os commits -->
     <canvas id="turtleCanvas" width="800" height="300"></canvas>
+    
     <script>
         const canvas = document.getElementById('turtleCanvas');
         const ctx = canvas.getContext('2d');
@@ -100,74 +113,7 @@
     </script>
 </body>
 </html>
-//gifer.com" alt="Meu GIF Animado">
-    </div>[animacao.gif.html](https://github.com/user-attachments/files/29048903/animacao.gif.html)
 
-    <!-- 👆 VEJA SE O GIF DA CORRIDA APARECE PRIMEIRO 👆 -->
-
-    <canvas id="turtleCanvas" width="800" height="300"></canvas>
-    
-    <script>
-        const canvas = document.getElementById('turtleCanvas');
-        const ctx = canvas.getContext('2d');
-        
-        let x = 50;
-        let targetX = 50;
-        let step = 0;
-        const commits = [
-            { msg: "init: casco", target: 200 },
-            { msg: "feat: patas", target: 400 },
-            { msg: "fix: velocidade", target: 600 }
-        ];
-
-        function drawTurtle(cx, cy) {
-            ctx.fillStyle = '#39ff14';
-            ctx.beginPath(); ctx.arc(cx, cy, 15, 0, Math.PI * 2); ctx.fill();
-            ctx.fillStyle = '#1d970c';
-            ctx.beginPath(); ctx.arc(cx + 12, cy - 12, 6, 0, Math.PI * 2); ctx.fill();
-            ctx.beginPath(); ctx.arc(cx + 12, cy + 12, 6, 0, Math.PI * 2); ctx.fill();
-            ctx.beginPath(); ctx.arc(cx - 12, cy - 12, 6, 0, Math.PI * 2); ctx.fill();
-            ctx.beginPath(); ctx.arc(cx - 12, cy + 12, 6, 0, Math.PI * 2); ctx.fill();
-            ctx.fillStyle = '#4ae225';
-            ctx.beginPath(); ctx.arc(cx + 18, cy, 7, 0, Math.PI * 2); ctx.fill();
-        }
-
-        function animar() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            
-            ctx.strokeStyle = '#39ff14';
-            ctx.lineWidth = 4;
-            ctx.beginPath();
-            ctx.moveTo(50, 150);
-            ctx.lineTo(x, 150);
-            ctx.stroke();
-
-            for (let i = 0; i < step; i++) {
-                ctx.fillStyle = '#ff007f';
-                ctx.beginPath(); ctx.arc(commits[i].target, 150, 8, 0, Math.PI * 2); ctx.fill();
-                ctx.fillStyle = '#fff';
-                ctx.font = '14px monospace';
-                ctx.fillText(commits[i].msg, commits[i].target - 40, 120);
-            }
-
-            if (x < targetX) {
-                x += 3;
-            } else if (step < commits.length) {
-                step++;
-                if (step < commits.length) {
-                    targetX = commits[step].target;
-                }
-            }
-
-            drawTurtle(x, 150);
-            requestAnimationFrame(animar);
-        }
-
-        targetX = commits[0].target; // Corrigido erro estrutural aqui também
-        animar();
-    </script>
-</body>
-</html>
 
 
 https://github.com/user-attachments/assets/1da8a18c-9e46-40bb-8e6a-115495d6b252
