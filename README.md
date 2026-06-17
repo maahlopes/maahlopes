@@ -4,7 +4,7 @@
 <div align="center">
   
   <!-- Seu Banner de Boas-Vindas -->
-  <img width="100%" src="https://vercel.app" alt="Banner Bem-vindo">
+ 
 
   <br><br>
 
@@ -13,6 +13,4 @@
 
 </div>
 
-
-https://github.com/user-attachments/assets/1da8a18c-9e46-40bb-8e6a-115495d6b252
 
