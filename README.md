@@ -2,5 +2,33 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=C2F49E&height=120&section=header&text=BEM-VINDO&fontSize=40&fontColor=333&animation=twinkling&fontAlignY=35&desc=🐢%20♡&descAlignY=55"/>
 
 <p align="center">
-  <img src="https://squarespace-cdn.com" width="100" alt="Tartaruga Pixel Art">
+  <!-- 1. SEU BANNER ATUAL (Mantenha o link do seu banner atual se preferir) -->
+  <img src="https://githubusercontent.com" width="100%" alt="Bem-Vindo">
+</p>
+
+<p align="center">
+  <!-- 2. O GIF DA TARTARUGA QUE SE MEXE SOZINHO -->
+  <img src="https://githubusercontent.com" width="90" alt="Tartaruga Animada">
+</p>
+
+---
+
+# Olá, eu sou a Mayara! 👋
+
+Atualmente sou estudante de **TI no SENAI - SP** e estou desenvolvendo minhas habilidades em programação e banco de dados. Este espaço é focado em documentar meus aprendizados, projetos de aula e desafios práticos.
+
+### 🛠️ Tecnologias e Ferramentas
+Aqui estão as tecnologias com as quais tenho contato nos meus estudos:
+
+<div align="left">
+  <img src="https://shields.io" alt="HTML5">
+  <img src="https://shields.io" alt="CSS3">
+  <img src="https://shields.io" alt="JavaScript">
+</div>
+
+---
+
+### 📊 Minhas Estatísticas
+<p align="left">
+  <img src="https://vercel.app" height="150" alt="Estatísticas do GitHub">
 </p>
