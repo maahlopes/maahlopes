@@ -1,17 +1,6 @@
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=C2F49E&height=120&section=header&text=BEM-VINDO&fontSize=40&fontColor=333&animation=twinkling&fontAlignY=35&desc=🐢%20♡&descAlignY=55"/>
 
-<p align="center">
-  <!-- 1. SEU BANNER ATUAL (Mantenha o link do seu banner atual se preferir) -->
-  <img src="https://githubusercontent.com" width="100%" alt="Bem-Vindo">
-</p>
-
-<p align="center">
-  <!-- 2. O GIF DA TARTARUGA QUE SE MEXE SOZINHO -->
-  <img src="https://githubusercontent.com" width="90" alt="Tartaruga Animada">
-</p>
-
----
 
 # Olá, eu sou a Mayara! 👋
 
